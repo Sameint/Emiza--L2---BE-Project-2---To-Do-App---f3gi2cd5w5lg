@@ -31,10 +31,8 @@ var taskSchema = mongoose.Schema({
     ref: "User",
   },
 },
-{
-  timestamps: true,
-},
-{  timestamps }
+
+{   timestamps: true }
 );
 
 
